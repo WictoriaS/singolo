@@ -1,1 +1,60 @@
 
+*{
+    width: 1020px;
+}
+
+body{
+}
+
+.grid {
+    display: grid;
+   grid-template-columns: repeat(6, minmax(250px 1fr));
+ }
+header{
+    color:white;
+    border-bottom: 2px solid slategrey;
+}
+h1{
+    display: inline;
+}
+.topnav{
+    border-bottom: none;
+    display: inline;
+    color: red;
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+  
+}
+.topnav a:hover{
+color:red;
+}
+.topnav a.active{
+    color: white;
+}
+main{
+p{ 
+    text-align: justify;
+    letter-spacing:;
+    }
+}
+.sliderconteiner{
+    width:100%;
+}
+
+}
+
+.grid{
+    border-bottom: 2px solid white;
+    background-color: lightgray;
+    flex-direction: column;
+    display: flex;
+    column-count: 6;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+footer{
+
+}
+
