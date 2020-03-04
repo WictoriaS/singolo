@@ -92,7 +92,7 @@ p {
   left: 2px;
   width: 16px;
   height: 27px;
-  background-image: url("assets/images/Slider/arrow-left.png");
+  background-image: url("assets/images/arrow-left.png");
   transition: transform 0.3s linear;
 }
 
@@ -102,7 +102,7 @@ p {
   right: 0;
   width: 16px;
   height: 27px;
-  background-image: url("assets/images/Slider/arrow-right.png");
+  background-image: url("assets/images/arrow-right.png");
   transition: transform 0.3s linear;
 }
 
@@ -134,7 +134,7 @@ p {
     display: grid;
 grid-template-rows: 1fr 1fr 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-gap: 2vw;
+
 }
 
 .our-services {
