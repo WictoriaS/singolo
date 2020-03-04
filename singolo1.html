@@ -1,69 +1,93 @@
 
 <!DOCTYPE HTML>
-    <html> 
-        <!--<head>Singolo. Part1</head>-->
-        <title>
+    <html lang="en"> 
+     
+        <head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <link rel="stylesheet" href="singolo1.css">
+            <link rel="stylesheet" href="latofonts.css">
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            Singolo. Part1
-        </title>
-       
+            <title> Singolo. Part1</title>
+    </head>
         <body>
-           <header>
-<pre><h1>SINGOLO<sub>"*"</sub></h1></pre>
-    <nav>
-        <div class="topnav">
-        <h2> <a class="active" href="#home">HOME</a></h2>
-        <h2> <a href="#services">SERVICES</a></h2>
-        <h2> <a href="PORTFOLIO">PORTFOLIO</a></h2>
-        <h2> <a href="about">ABOUT</a></h2>
-        <h2> <a href="contact">CONTACT</a></h2>
-        </div>
-    </nav>
-</header>
+            <script>
+                'use strict'
+            </script>
+         <header class="header">
+            <div class="box">
+              <div class="box-inner">
+                <h1 class="box-logo">Singolo<span class="logoel">*</span></h1>
+                <nav class="box-nav">
+                  <a class="link-box-nav" href="#">Home</a>
+                  <a class="link-box-nav" href="#">Services</a>
+                  <a class="link-box-nav" href="#">Portfolio</a>
+                  <a class="link-box-nav" href="#">About</a>
+                  <a class="link-box-nav" href="#">Contact</a>
+                </nav>
+              </div>
+            </div>
+          </header>
  <main>
-<div class="sliderconteiner">
-  <input 
-  <img src="iPhone Vertical.png" alt="phone1">
-  <img src="iPhone Horizontal (1).png" alt="phone2">
-</div>
-    <h1> Our Services</h1>
-    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,non commodo luctus, nisi erat porttitor ligula, eget lacinia odia sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
-<div class="grid.conteiner">
+        <div class="slider">
+        <div class="box">
+          <div class="box-slider">
+            <div class="left"></div>
+            <div class="iphone">
+              <img class="vertical" src="assets/images/iPhone Vertical.png" alt="phone vertical" width="240"
+                height="483">
+              <img class="horizontal" src="assets/images/iPhone Horizontal (1).png" alt="phone horizontal"
+                width="484" height="240">
+            </div>
+         <div class="right"></div>
+          </div>
+        </div>
+    </div>
+    <div class="our-services">
+        <h2 class="title-our-services"> Our Services</h2>
+    <p class="about-services">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,non commodo
+         luctus, nisi erat porttitor ligula, eget lacinia odia sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor
+          mauris condimentum nibh. </p>
+    </div>
+<div id="grid">
     <div class="grid-element">
-        <img src="Pen.png" alt="pen">
-         <h1>Custom Design</h1> 
-            <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+        <img class="icon" src="assets/images/Pen.png" alt="pen" width="59" height="59">
+        <div class="grid-element-box">
+         <h3 class="grid-element-title">Custom Design</h3> 
+         <p class="grid-element-text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+    </div>
     </div> 
+        <div class="grid-element">    
+        <img src="assets/images/Bulb.png" alt="bulb" width="59" height="59">
+        <div class="grid-element-box">
+        <h3 class="grid-element-title">Innovative Ideas</h3>
+            <p class="grid-element-text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, necrutrum tellus dolor id lorem.</p>
+        </div>
+        </div>
     <div class="grid-element">
-        <img src="Bulb.png" alt="bulb">
-        <h1>Innovative Ideas</h1>
-            <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, necrutrum tellus dolor id lorem.</p>
+        <img class="icon" src="assets/images/Heart.png" alt="heart" width="59" height="59">
+        <h3 class="grid-element-title">Love is The Answer</h3>
+            <p class="grid-element-text">Nulla sed nuncet tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
     </div>
     <div class="grid-element">
-        <h1>Love is The Answer</h1>
-            <p>Nulla sed nuncet tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+        <img class="icon" src="assets/images/Phone.png" alt="phone" width="59" height="59">
+        <h3 class="grid-element-title">Responsive Layout</h3>
+                <p class="grid-element-text">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo. </p>
     </div>
     <div class="grid-element">
-        <img src="Phone.png" alt="phone">
-        <h1>Responsive Layout</h1>
-                <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo. </p>
+        <img class="icon" src="assets/images/Bubble.png" alt="buble" width="59" height="59">
+        <h3 class="grid-element-title">24/7 Support</h3>
+        <p class="grid-element-text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
     </div>
     <div class="grid-element">
-        <img src="Bubble.png" alt="buble">
-        <h1>24/7 Support</h1>
-        <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
-    </div>
-    <div class="grid-element">
-        <img src="Star.png." alt="star">
-        <h1>Feel Like A Star </h1>
-        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+        <img class="icon" src="assets/images/Star.png." alt="star" width="59" height="59">
+        <h3 class="grid-element-title">Feel Like A Star </h3>
+        <p class="grid-element-text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
     </div>
     </div>
 
 </div>
-
+</div>
 
             </main>
             <footer>
